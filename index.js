@@ -5,7 +5,7 @@ app.use(cors());
 app.use(express.json());
 const port = 5000;
 app.get("/", (req, res) => {
-  res.send("hello server");
+  res.send("hrmello server");
 });
 
 app.listen(port, () => {
